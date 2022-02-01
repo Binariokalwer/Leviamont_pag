@@ -57,7 +57,7 @@ function modelo(numero){
   }else if (numero == 2){
     speechSynthesis.speak( new SpeechSynthesisUtterance("cargando modelo numero" + numero));
     preload_1.style.visibility="hidden";
-    model.src="https://sketchfab.com/models/3276eba3706c4df3b9e2ba1e93a1b79a/embed"
+    model.src="https://sketchfab.com/models/1bd798b790c640ceb7f6a1cd6f7c8a80/embed"
 
   }else if (numero == 3){
 
