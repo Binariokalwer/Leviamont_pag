@@ -53,7 +53,7 @@ function modelo(numero){
   if(numero == 1){
     speechSynthesis.speak( new SpeechSynthesisUtterance("cargando modelo numero" + numero));
     preload_1.style.visibility="hidden";
-    model.src="https://sketchfab.com/models/6d173806ea334fbda0639794ddb2bfcf/embed?ui_theme=dark";
+    model.src="https://sketchfab.com/models/1bd798b790c640ceb7f6a1cd6f7c8a80/embed";
   }else if (numero == 2){
     speechSynthesis.speak( new SpeechSynthesisUtterance("cargando modelo numero" + numero));
     preload_1.style.visibility="hidden";
