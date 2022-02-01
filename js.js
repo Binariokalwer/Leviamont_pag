@@ -35,7 +35,7 @@ function menu(){
             'Espere un momento',
             'success'
           )
-          location.href='/modelos_leviamont.html'
+          location.href='modelos_leviamont.html'
         } else if (
           /* Read more about handling dismissals below */
           result.dismiss === Swal.DismissReason.cancel
