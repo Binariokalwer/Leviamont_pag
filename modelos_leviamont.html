@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +15,7 @@
 
     <title>Modelos 3d</title>
 </head>
+
 <body onload="loading_page();" id="todo">
     <div id="cont">
         <video id="font_vid" autoplay loop preload="metadata">
@@ -21,76 +23,86 @@
         </video>
         <div id="block_b"></div>
         <div id="cont_models">
-            <div class="sketchfab-embed-wrapper"> 
-                <iframe id="model" title="Sea Animals - Commissioned" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src=""> </iframe> 
+            <div class="sketchfab-embed-wrapper">
+                <iframe id="model" title="Sea Animals - Commissioned" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered
+                    web-share src=""> </iframe>
             </div>
             <form action="#" id="form_1">
                 <p>
-                  <label>
+                    <label>
                     <input name="group1" type="radio" onclick="modelo(1);"/>
                     <span>Modelo 1</span>
                   </label>
-                
-                  <label>
+
+                    <label>
                     <input name="group1" type="radio" onclick="modelo(2);"/>
                     <span>modelo 2</span>
                   </label>
-                
-                
-                  <label>
-                    <input class="with-gap" name="group1" type="radio" disabled="disabled"/>
-                    <span>modelo 3</span>
+
+
+                    <label>
+                    <input class="with-gap" name="group1" type="radio" onclick="modelo(3);"/>
+                    <span> modelo 3 </span>
                   </label>
-                  <label>
+                    <label>
                     <input name="group1" type="radio" disabled="disabled"/>
                     <span>modelo 4</span>
                   </label>
                 </p>
-              </form>
-              <div class="preloader-wrapper big active" id="preload_1">
+            </form>
+            <div class="preloader-wrapper big active" id="preload_1">
                 <div class="spinner-layer spinner-blue">
-                  <div class="circle-clipper left">
-                    <div class="circle"></div>
-                  </div><div class="gap-patch">
-                    <div class="circle"></div>
-                  </div><div class="circle-clipper right">
-                    <div class="circle"></div>
-                  </div>
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
                 </div>
-          
+
                 <div class="spinner-layer spinner-red">
-                  <div class="circle-clipper left">
-                    <div class="circle"></div>
-                  </div><div class="gap-patch">
-                    <div class="circle"></div>
-                  </div><div class="circle-clipper right">
-                    <div class="circle"></div>
-                  </div>
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
                 </div>
-          
+
                 <div class="spinner-layer spinner-yellow">
-                  <div class="circle-clipper left">
-                    <div class="circle"></div>
-                  </div><div class="gap-patch">
-                    <div class="circle"></div>
-                  </div><div class="circle-clipper right">
-                    <div class="circle"></div>
-                  </div>
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
                 </div>
-          
+
                 <div class="spinner-layer spinner-green">
-                  <div class="circle-clipper left">
-                    <div class="circle"></div>
-                  </div><div class="gap-patch">
-                    <div class="circle"></div>
-                  </div><div class="circle-clipper right">
-                    <div class="circle"></div>
-                  </div>
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
                 </div>
-              </div>
+            </div>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js.js"></script>
 </body>
+
 </html>
