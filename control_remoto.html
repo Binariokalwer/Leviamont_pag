@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control_remoto_leviamont</title>
+    <link rel="icon" href="logo-modified.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="tod" onload="video_cap_url()">
+    <div id="panel_but">
+        <button id="ade_bot" onclick="enviar_dat_levi(1);">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span> ˄
+          </button>
+        <button id="ade_bot_2" onclick="enviar_dat_levi(2);">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span> ˅
+          </button>
+        <button id="ade_bot_3" onclick="enviar_dat_levi(3);">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span> <
+          </button>
+        <button id="ade_bot_4" onclick="enviar_dat_levi(4);">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span> >
+          </button>
+    </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+<script src="/js_2.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="sweetalert2.all.min.js"></script>
+<script src="sweetalert2.min.js"></script>
+<link rel="stylesheet" href="sweetalert2.min.css">
+
+</html>

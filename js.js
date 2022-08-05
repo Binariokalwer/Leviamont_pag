@@ -3,7 +3,7 @@ var model = document.getElementById("model");
 var preload_1 = document.getElementById("preload_1");
 
 function robot_voz() {
-    speechSynthesis.speak(new SpeechSynthesisUtterance("hola"));
+    speechSynthesis.speak(new SpeechSynthesisUtterance("Leviamont es un proyecto, que , mediante el uso de la levitación por repulsión electromagnetica pretende crear un sistema de transporte de materiales pesados de manera sencilla y rapida, en la pagina weeb encontraras modelos 3d y en los videos mas información sobre el proyecto"));
 }
 
 function vide_buttons() {
@@ -75,8 +75,12 @@ function loading_page() {
     })
 }
 
-//function loading_page_one() {
-//if (screen.width < 700 && screen.width > 600 && screen.height < 400 && screen.height > 300) {
-//document.getElementById("myCarousel").style.width = "30%"
-//}
-//}
+function down() {
+    Swal.fire('La app se encuentra en matenimiento puedes usar el control remoto con previa solicitud')
+}
+
+function ctrl_re() {
+    alert("envia un correo para solicitar acceso")
+    window.open("mailto:binariokalwer@gmail.com");
+    window.open("/control_remoto.html");
+}
