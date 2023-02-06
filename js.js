@@ -22,8 +22,8 @@ function menu() {
 
     swalWithBootstrapButtons.fire({
         title: 'menú',
-        text: "mostrando opciones",
-        icon: 'info',
+        /* text: "mostrando opciones", */
+        /* icon: 'info', */
         showCancelButton: true,
         confirmButtonText: 'ir a modelos 3d',
         cancelButtonText: 'permanecer aqui',
@@ -64,7 +64,9 @@ function modelo(numero) {
         preload_1.style.visibility = "hidden";
         model.src = "https://sketchfab.com/models/0e95e6d462ba4b5f9e4e8c7a7cd03e53/embed?autostart=1&ui_theme=dark"
     } else if (numero == 4) {
-
+        speechSynthesis.speak(new SpeechSynthesisUtterance("cargando modelo numero" + numero));
+        preload_1.style.visibility ="hidden";
+        model.src= "https://sketchfab.com/models/743fd42e80f7424b9f3cbc8e5499993e/embed?ui_theme=dark"
     }
 }
 
@@ -76,7 +78,8 @@ function loading_page() {
 }
 
 function down() {
-    Swal.fire('La app se encuentra en matenimiento puedes usar el control remoto con previa solicitud')
+    location.href="/Formulario de Contacto/formulario.html"
+    /* Swal.fire('La app se encuentra en matenimiento puedes usar el control remoto con previa solicitud') */
 }
 
 function ctrl_re() {

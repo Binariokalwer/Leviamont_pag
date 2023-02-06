@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- hola yo -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="csshake.min.css">
@@ -22,7 +21,7 @@
 <body>
     <div id="cont1">
         <nav id="cont1_1">
-
+            
             <div class="nav-wrapper">
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
 
@@ -33,7 +32,7 @@
                 <div class="radar"></div>
                 <div class="radar"></div>
                 <div id="cont_robot" class="shake-slow shake-constant shake-constant--hover">
-                    <img src="195.jpg" alt="robot" id="robot" onclick="menu();">
+                    <img src="modelado-3d.png" alt="robot" id="robot" onclick="menu();">
                 </div>
             </div>
         </nav>
@@ -72,8 +71,8 @@
                 <img src="app_1.jpg" alt="" style="width: 100%; height: auto;">
                 <!--<img src="images/image-1.jpg" alt="">-->
                 <div class="carousel-caption">
-                    <h3>App leviamont menu</h3>
-                    <p>Se presentan las diferentes opciones de la app</p>
+                    <h1 style=" position: absolute; left: -30%; font-size: xx-small;">App leviamont</h1>
+                    <!-- <p>Se presentan las diferentes opciones de la app</p> -->
                 </div>
             </div>
 
@@ -117,6 +116,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript">
+        if (screen.width <= 767) {
+            alert('Intentar en otro dispositivo(pc, laptop, o un dispositivo de mayor resolucion)')
+            speechSynthesis.speak(new SpeechSynthesisUtterance("Intentar en otro dispositivo(pc, laptop, o un dispositivo de mayor resolucion)"));
+        }
+      </script>
 </body>
 
 </html>
