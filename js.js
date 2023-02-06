@@ -78,8 +78,7 @@ function loading_page() {
 }
 
 function down() {
-    location.href="/Formulario de Contacto/formulario.html"
-    /* Swal.fire('La app se encuentra en matenimiento puedes usar el control remoto con previa solicitud') */
+    location.href="Leviamont_pag/Formulario de Contacto/formulario.html"
 }
 
 function ctrl_re() {
