@@ -78,7 +78,7 @@ function loading_page() {
 }
 
 function down() {
-    location.href="Leviamont_pag/Formulario de Contacto/formulario.html"
+    location.href="Formulario de Contacto/formulario.html"
 }
 
 function ctrl_re() {
